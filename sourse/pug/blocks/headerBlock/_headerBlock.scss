@@ -1,19 +1,61 @@
 // start .headerBlock
 .headerBlock {
-	margin-bottom: 1px;
-	min-height: 100vh;
-	min-height: calc(var(--vh, 1vh) * 100);
-	// background-image: url(../img);
-	// background-color: #000000;
-
+	padding-top: rem(60);
+	padding-bottom: 0;
+	@include media-breakpoint-up(lg) {
+		padding-top: rem(40);
+	}
+	.section-title {
+		margin-bottom: rem(46);
+		@include media-breakpoint-up(md) {
+			margin-bottom: rem(50);
+		}
+	}
+	&__container {
+		position: relative;
+	}
+	&__col-img {
+		img {
+			width: 100%;
+			max-width: rem(380);
+		}
+	}
+	.bg-img {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		z-index: -1;
+		bottom: 0;
+		@include media-breakpoint-up(md) {
+			top: 0;
+			bottom: unset;
+		}
+	}
+	.fire {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		bottom: 0;
+		z-index: -1;
+	}
 	h1 {
-		margin-bottom: 1px;
+		margin-bottom: rem(27);
+		@include media-breakpoint-down(md) {
+			font-size: rem(30);
+		}
 	}
-
-	h2 {
-		margin-bottom: 1px;
+	h5 {
+		margin-bottom: rem(32);
 	}
-
+	p {
+		font-size: rem(16);
+		font-family: 'Circe';
+		margin-bottom: rem(38);
+		text-transform: initial;
+		@include media-breakpoint-up(md) {
+			font-size: rem(18);
+		}
+	}
 	@include media-breakpoint-up(xl) {}
 
 	@include media-breakpoint-up(lg) {}

@@ -365,6 +365,20 @@ function eventHandler() {
 	});
 	// modal window
 
+	const sWelcomeSwiper = new Swiper('.sWelcome__slider--js', {
+		slidesPerView: 'auto',
+		spaceBetween: 20,
+
+		loop: true,
+		freeMode: false,
+		speed: 6000,
+		loopFillGroupWithBlank: true,
+		autoplay: {
+      delay: 0, 
+      disableOnInteraction: false,
+    }, 
+	});
+
 };
 if (document.readyState !== 'loading') {
 	eventHandler();

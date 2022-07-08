@@ -20,14 +20,25 @@ mixin mob-mnu()
 mixin top-nav() 
 	// start top-nav
 	+b.top-nav.block-with-lazy
-		.container
-			.row
-				.col.order-lg-0.order-last
-					.menu-mobile.menu-mobile--js
-						.menu-mobile__inner
-							+menu-toggle()
-							+mnu()
-					
-				.col-auto.d-lg-none
-					+menu-toggle()
+		+e.row.row
+			+e.col-logo.col-auto
+				a(href="#")
+					+img('img/logo.png')
+			+e.col-nav.col-12.col-lg.order-lg-0.order-last.d-none.d-lg-block
+						//- +menu-toggle()
+						+mnu()
+			.col-auto
+				+e.link-wrap
+					a(href="#").active рус
+					a(href="#") eng
+			+e.col-soc.col-auto
+				+soc()
+					+item-sos('twitter')
+					+item-sos('telegram')
+			.col-auto.d-lg-none
+				+menu-toggle()
+		.menu-mobile.menu-mobile--js.d-block.d-lg-none
+			.menu-mobile__inner
+				+mnu()
+				+btnBase('присоединиться')
 	// end top-nav
