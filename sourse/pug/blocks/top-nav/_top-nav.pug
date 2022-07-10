@@ -15,9 +15,10 @@ mixin mob-mnu()
 		+b.toggle-menu-mobile--js
 			span
 		+e.inner
-			+mnu()
+			block
+			//- +mnu()
 	//  мобильное меню
-mixin top-nav() 
+mixin top-nav(data) 
 	// start top-nav
 	+b.top-nav.block-with-lazy
 		+e.row.row
@@ -25,12 +26,11 @@ mixin top-nav()
 				a(href="#")
 					+img('img/logo.png')
 			+e.col-nav.col-12.col-lg.order-lg-0.order-last.d-none.d-lg-block
-						//- +menu-toggle()
-						+mnu()
+				//- +menu-toggle()
+				block
+				//- +mnu()
 			.col-auto
-				+e.link-wrap
-					a(href="#").active рус
-					a(href="#") eng
+				+changeLang(data)
 			+e.col-soc.col-auto
 				+soc()
 					+item-sos('twitter')
@@ -39,6 +39,7 @@ mixin top-nav()
 				+menu-toggle()
 		.menu-mobile.menu-mobile--js.d-block.d-lg-none
 			.menu-mobile__inner
-				+mnu()
+				block
+				//- +mnu()
 				+btnBase('присоединиться')
 	// end top-nav

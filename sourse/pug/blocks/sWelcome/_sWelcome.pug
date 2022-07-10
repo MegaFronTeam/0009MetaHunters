@@ -6,21 +6,21 @@ mixin sWelcome(data)
 			+img('img/threeBats.png').right
 			+img('img/fire-solid.png').fire
 			+b.section-title.text-center
-				h2 добро пожаловать в meta hunters
-				h5 META HUNTERS ОТКРОЕТ ДОСТУП К WEB3 ИГРЕ HUNTERS WORLD, СТЕЙКИНГУ NFT И ДРУГИМ БОНУСАМ!
-				p 4999 уникальных NFT Meta Hunters на&nbsp;блокчейне TON позволят получить преимущество в&nbsp;Web3 игре Hunters World, быстрее развиваться и&nbsp;зарабатывать больше токенов, а&nbsp;также вы&nbsp;сможете застейкать любое количество наших NFT, чтобы получать еще больше выгоды!
+				h2!= data.title
+				h5!= data.subtitle
+				p!= data.text
 			+e.row.row
-				mixin item(title, text)
+				each item in data.sWelcomeItems
 					.col-sm-6.col-lg-4
 						+e.item
-							.h2!= title
-							p!= text
-				+item('СКОРО', 'дата запуска pre-sale')
-				+item('4 999', 'количество nft')
-				+item('СКОРО', 'стоимость nft')
+							.h2!= item.itemTitle
+							p!= item.itemText
+				//- +item('СКОРО', 'дата запуска pre-sale')
+				//- +item('4 999', 'количество nft')
+				//- +item('СКОРО', 'стоимость nft')
 			+e.wrap.text-center
 				+img('img/sWelcome-img.png')
-				h5 Коллекция создана совместно со&nbsp;стрит-арт художником Occultra, известным по&nbsp;коллаборациям с&nbsp;такими брендами как Reebok, G-Shock, Levis, DC&nbsp;и&nbsp;многими&nbsp;др.
+				h5!= data.subText
 				+btnBase('присоединиться')
 			+e.slider--js.swiper
 				.swiper-wrapper

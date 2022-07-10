@@ -27,22 +27,22 @@
 			margin-left: unset;
 		}
 	}
-	&__link-wrap {
-		a {
-			color: rgba($color: #fff, $alpha: .5);
-			text-decoration: none;
-			font-size: rem(14);
-			&:not(:last-child) {
-				margin-right: rem(10);
-			}
-			&.active, &:hover {
-				color: #fff;
-			}
-			@include media-breakpoint-up(sm) {
-				font-size: rem(16);
-			}
-		}
-	}
+	// &__link-wrap {
+	// 	a {
+	// 		color: rgba($color: #fff, $alpha: .5);
+	// 		text-decoration: none;
+	// 		font-size: rem(14);
+	// 		&:not(:last-child) {
+	// 			margin-right: rem(10);
+	// 		}
+	// 		&.active, &:hover {
+	// 			color: #fff;
+	// 		}
+	// 		@include media-breakpoint-up(sm) {
+	// 			font-size: rem(16);
+	// 		}
+	// 	}
+	// }
 	.soc {
 		--bs-gutter-x: 10px;
 		&__item {

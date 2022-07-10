@@ -1,13 +1,13 @@
-mixin headerBlock()
+mixin headerBlock(data)
 	// start headerBlock
 	+b.headerBlock.section#headerBlock&attributes(attributes).bg-wrap
 		+e.container.container
 			+img('img/bats.png').bg-img
 			+img('img/fire.png').fire
 			+b.section-title.text-center
-				h1 коллекция из 4999 уникальных nft на блокчейне TON
-				h5 совместно с художником Occultra
-				p Успейте получить ранний доступ к&nbsp;pre-sale стадии, которая состоится в&nbsp;июле 2022 года и&nbsp;примите<br>участие в&nbsp;незабываемом путешествии в&nbsp;мир Web3 вместе с&nbsp;командой Meta Hunters!
+				h1!= data.title
+				h5!= data.subtitle
+				p!= data.text
 				+btnBase('присоединиться')
 			.row.text-center
 				+e.col-img.col-xl-4.d-none.d-xl-block

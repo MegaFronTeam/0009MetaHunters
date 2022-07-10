@@ -84,6 +84,8 @@
 	position: relative;
 	z-index: 2;
 	text-decoration: none;
+	width: 100%;
+	max-width: rem(240);
 	&__bg {
 		@include mt;
 		position: absolute;
@@ -126,6 +128,23 @@
 		font-size: rem(18);
 		@include media-breakpoint-up(md) {
 			font-size: rem(20);
+		}
+	}
+}
+
+.changeLang {
+	a {
+		color: rgba($color: #fff, $alpha: .5);
+		text-decoration: none;
+		font-size: rem(14);
+		&:not(:last-child) {
+			margin-right: rem(10);
+		}
+		&.active, &:hover {
+			color: #fff;
+		}
+		@include media-breakpoint-up(sm) {
+			font-size: rem(16);
 		}
 	}
 }

@@ -1,10 +1,80 @@
 {
-	"nav":[
-		{	"name":"дорожная карта", "url":"#"},
-		{"name":"команда", "url":"#"},
-		{"name":"faq", "url":"#"} ,
-		{"name":"комьюнити", "url":"#"}
-	],
+	"ru": {
+		"title": "MetaHunters",
+		"lang": "ru",
+		"description": "КОЛЛЕКЦИЯ ИЗ 4999 УНИКАЛЬНЫХ NFT НА БЛОКЧЕЙНЕ TON",
+		"btn": "присоединиться",
+		"header": {
+			"title": "коллекция из 4999 уникальных nft на блокчейне TON",
+			"subtitle": "совместно с художником Occultra",
+			"text": "Успейте получить ранний доступ к&nbsp;pre-sale стадии, которая состоится в&nbsp;июле 2022 года и&nbsp;примите<br>участие в&nbsp;незабываемом путешествии в&nbsp;мир Web3 вместе с&nbsp;командой Meta Hunters!"
+		},
+		"nav":[
+			{	"name":"о проекте", "url":"#", "class": "menu-item-active"},
+			{	"name":"дорожная карта", "url":"#", "class": ""},
+			{"name":"команда", "url":"#", "class": ""},
+			{"name":"faq", "url":"#", "class": ""} ,
+			{"name":"комьюнити", "url":"#", "class": ""}
+		],
+		"sWelcome": {
+			"title": "добро пожаловать в meta hunters",
+			"subtitle": "META HUNTERS ОТКРОЕТ ДОСТУП К WEB3 ИГРЕ HUNTERS WORLD, СТЕЙКИНГУ NFT И ДРУГИМ БОНУСАМ!",
+			"text": "4999 уникальных NFT Meta Hunters на&nbsp;блокчейне TON позволят получить преимущество в&nbsp;Web3 игре Hunters World, быстрее развиваться и&nbsp;зарабатывать больше токенов, а&nbsp;также вы&nbsp;сможете застейкать любое количество наших NFT, чтобы получать еще больше выгоды!",
+			"subText": "Коллекция создана совместно со&nbsp;стрит-арт художником Occultra, известным по&nbsp;коллаборациям с&nbsp;такими брендами как Reebok, G-Shock, Levis, DC&nbsp;и&nbsp;многими&nbsp;др.",
+			"sWelcomeItems": [
+				{
+					"itemTitle": "СКОРО",
+					"itemText": "дата запуска pre-sale"
+				},
+				{
+					"itemTitle": "4 999",
+					"itemText": "количество nft"
+				},
+				{
+					"itemTitle": "СКОРО",
+					"itemText": "стоимость nft"
+				}
+			]
+		}
+	},
+	"en": {
+		"title": "MetaHunters",
+		"lang": "en",
+		"description": "the collection of 4999 unique NFTs on the TON blockchain",
+		"btn": "join",
+		"header": {
+			"title": "the collection of 4999 unique NFTs on the TON blockchain",
+			"subtitle": "together with the artist Occulta",
+			"text": "Have time to&nbsp;get early access to&nbsp;the pre-sale stage, which will take place in&nbsp;July 2022, and take part in&nbsp;an&nbsp;unforgettable journey into the world of&nbsp;Web3 together with the Meta Hunters team!"
+		},
+		"nav":[
+			{	"name":"about", "url":"#", "class": "menu-item-active"},
+			{	"name":"Road map", "url":"#", "class": ""},
+			{"name":"team", "url":"#", "class": ""},
+			{"name":"faq", "url":"#", "class": ""} ,
+			{"name":"community", "url":"#", "class": ""}
+		],
+		"sWelcome": {
+			"title": "WELCOME TO METAHUNTERS",
+			"subtitle": "METAHUNTERS WILL OPEN ACCESS TO WEB3 GAME HUNTERS WORLD, NFT STAKING AND OTHER BONUSES!",
+			"text": "4999 unique NFT Metahunters on&nbsp;the TON blockchain will allow you to&nbsp;gain an&nbsp;advantage in&nbsp;the web 3.0 game &laquo;Hunters World&raquo;, develop faster and earn more tokens. Moreover you can stake as&nbsp;many of&nbsp;our NFTs as&nbsp;you want for even greater benefits!",
+			"subText": "The collection was created in collaboration with street art artist Occulta, known for collaborations with brands such as Reebok, G-Shock, Levis, DC and many others.",
+			"sWelcomeItems": [
+				{
+					"itemTitle": "soon",
+					"itemText": "pre-sale launch date"
+				},
+				{
+					"itemTitle": "4 999",
+					"itemText": "supply  nft"
+				},
+				{
+					"itemTitle": "soon",
+					"itemText": "mint price"
+				}
+			]
+		}
+	},
 	"social":[
 		"fb","instagram","telegram"
 	],

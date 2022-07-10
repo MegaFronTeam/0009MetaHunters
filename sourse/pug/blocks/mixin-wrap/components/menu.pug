@@ -1,14 +1,7 @@
 
-mixin mnu()
+mixin mnu(menu)
 	ul.menu(itemscope itemtype="http://schema.org/SiteNavigationElement")
-		li.menu-item.menu-item-active(itemprop="item" ): a(href= '#' itemprop="url") о проекте
-		each link in nav
-			li.menu-item(itemprop="item" ): a(href= link.url itemprop="url")= link.name
-			if link.subnav
-				li.menu-item.menu-item-has-children
-					a(href="#" itemprop="url") О нас
-					ul.sub-menu
-						each sublink in link.subnav
-							li.menu-item(itemprop="item" ): a(href= sublink.url itemprop="url")= sublink.name
+		each link in menu
+			li.menu-item(itemprop="item" class=`${link.class}`): a(href= link.url itemprop="url")= link.name
 
 //- menu

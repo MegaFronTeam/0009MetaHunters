@@ -29,7 +29,12 @@ mixin addblock()
 		input(type="text" value="1")
 		+e.btn--plus(type="button")
 
-mixin btnBase(text)
-	+b.btn-base(href="#")
+mixin btnBase()
+	+b.btn-base(href="#").text-center
 		+e.bg
-		+e.text!= text
+		+e.text!= lan.btn
+
+mixin changeLang(active)
+	+b.changeLang
+		+e.link(href="index.html" class= (active == "ru" ? "active" : " ")) Рус
+		+e.link(href="index-eng.html"  class=( active != "ru"  ? "active" : "")) Eng
