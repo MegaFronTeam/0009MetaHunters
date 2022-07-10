@@ -1,0 +1,22 @@
+mixin sTeam(data)
+	// start sTeam
+	+b.SECTION.sTeam.section#sTeam&attributes(attributes)
+		+e.container.container
+			+img('img/threeBats.png').left
+			+img('img/threeBats.png').right
+			+b.section-title.text-center
+				h2!= data.title
+				h5!= data.subTitle
+			+e.row.row
+				each item in data.sTeamItems
+					+e.col.col-6.col-lg-4
+						+e.item.text-center
+							+e.img-wrap
+								.img-wrap-center
+									+img(`img/sTeam-img-${item.itemImg}.jpg`)
+							h5!= item.itemTitle
+								if item.icon
+									+icon(item.icon)
+							p!= item.itemText
+			+btnBase()
+	// end sTeam

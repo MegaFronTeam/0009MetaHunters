@@ -32,7 +32,11 @@ mixin addblock()
 mixin btnBase()
 	+b.btn-base(href="#").text-center
 		+e.bg
-		+e.text!= lan.btn
+		//- +e.text!= lan.btn
+		if lan == ru
+			+e.text присоединиться
+		else
+			+e.text join
 
 mixin changeLang(active)
 	+b.changeLang

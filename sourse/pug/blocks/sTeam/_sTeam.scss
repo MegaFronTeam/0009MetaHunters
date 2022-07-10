@@ -1,0 +1,126 @@
+// start .sTeam
+.sTeam {
+	--sPT: #{rem(60)};
+	--sPB: #{rem(60)};
+	// --sTPB: #{rem()};
+	@include media-breakpoint-up(lg) {
+		--sPT: #{rem(100)};
+		--sPB: #{rem(100)};
+	}
+	&__container {
+		position: relative;
+	}
+	.left {
+		position: absolute;
+		// bottom: calc(var(--sPB) * -1);
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		z-index: -1;
+		
+		@include media-breakpoint-up(sm) {
+			right: calc(100% + 1px);
+			left: unset;
+			transform: none;
+		}
+	}
+	.right {
+		position: absolute;
+		top: calc((var(--sPT) * -1) + 20px);
+		left: 50%;
+		transform: translateX(-50%);
+		z-index: -1;
+		@include media-breakpoint-up(sm) {
+			// top: 230px;
+			top: 0;
+			left: calc(100% + 1px);
+			transform: none;
+		}
+	}
+	&__row{
+		// --bs-gutter-x: #{rem()};
+		--bs-gutter-y: #{rem(30)};
+		margin-bottom: rem(40);
+		@include media-breakpoint-up(lg) {
+			margin-bottom: rem(60);
+			--bs-gutter-y: #{rem(40)};
+		}
+	}
+	.section-title{
+		margin-bottom: rem(40);
+		@include media-breakpoint-up(lg) {
+			margin-bottom: rem(60);
+		}
+		h2 {
+			margin-bottom: rem(20);
+			@include media-breakpoint-up(lg) {
+				margin-bottom: rem(30);
+			}
+		}
+	}
+	&__col{
+		&:nth-child(2), &:nth-child(5) {
+			.sTeam__item {
+				@include media-breakpoint-up(lg) {
+					margin-top: rem(40);
+				}
+			}
+		}
+	}
+	&__item{
+		img {
+			// border-radius: 10px;
+			// margin-bottom: rem(20);
+			// @include media-breakpoint-up(lg) {
+			// 	border-radius: 15px;
+			// }
+		}
+		h5 {
+			margin-bottom: rem(10);
+			@include media-breakpoint-down(lg) {
+				font-size: rem(16);
+			}
+			.icon {
+				vertical-align: sub;
+				font-size: rem(20);
+				margin-left: rem(8);
+				@include media-breakpoint-up(lg) {
+					font-size: rem(24);
+				}
+			}
+		}
+		p {
+			opacity: .5;
+			line-height: 1.25em;
+			margin-bottom: 0;
+			font-family: 'Circe';
+			text-transform: initial;
+			font-size: rem(18);
+			@include media-breakpoint-down(lg) {
+				font-size: rem(14);
+			}
+		}
+	}
+	&__img-wrap {
+		@include block(280, 280);
+		max-width: rem(280);
+		margin-bottom: rem(20);
+		margin-right: auto;	
+		margin-left: auto;
+		img {
+			max-height: 100%;
+			max-width: 100%;
+			border-radius: 10px;
+			@include media-breakpoint-up(lg) {
+				border-radius: 15px;
+			}
+		}
+	}
+	@include media-breakpoint-up(xl) {}
+	@include media-breakpoint-up(lg) {}
+	@include media-breakpoint-up(md) {}
+	@include media-breakpoint-up(sm) {}
+	@include media-breakpoint-between(md, xl) {}
+	@include media-breakpoint-only(xl) {}
+	@include media-breakpoint-down(xl) {}
+} // end.sTeam
