@@ -1,9 +1,30 @@
-mixin footer()
+mixin footer(data)
 	+b.FOOTER.footer
-		.container
+		+e.container.container
+			+img('img/fire-solid.png').fire
+			+img('img/header-img-2.png').magican-1
+			+img('img/header-img-3.png').magican-2
+			+img('img/threeBats.png').bats-right
+			+img('img/threeBats.png').bats-left
 			.row
-				.col
-					
-				.col Footer
-				.col
-				.col-auto
+				.col-12
+					+b.section-title.text-center
+						h2!= data.title
+						h5!= data.subtitle
+					+e.row-link.row.text-center
+						.col-auto
+							+e.link(href="#")
+								+polygon()
+								+icon('telegram')
+						.col-auto
+							+e.link(href="#")
+								+polygon()
+								+icon('twitter')
+		+e.row-info.row
+			+e.col-text.col-auto.order-2.order-lg-1
+				p Meta Hunters © 2022
+			.col-auto.order-1.order-lg-2
+				a(href="#")
+					+img('img/logo.png')
+			.col-auto.order-3.order-lg-3
+				p!= data.devops

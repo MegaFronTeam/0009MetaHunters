@@ -1,0 +1,23 @@
+mixin sFAQ(data)
+	// start sFAQ
+	+b.SECTION.sFAQ.section#sFAQ&attributes(attributes).bg-wrap
+		+img('img/bats.png').bg-img
+		+e.slider--js.swiper
+			.swiper-wrapper
+				+e.slide.swiper-slide
+					if lan == ru
+						+img("img/sFAQline.png")
+					else
+						+img("img/sFAQlineEng.png")
+				//- +e.slide.swiper-slide
+				//- 	+img("img/sFAQline.png")
+		.container
+			+b.section-title.text-center
+				h2!= data.title
+			+ddGroup()
+				each item in data.ddGroup
+					+ddGroupItem(`${item.title}`)
+						each paragraph in item.content
+							p!= paragraph
+			+btnBase()
+	// end sFAQ

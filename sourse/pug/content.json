@@ -77,6 +77,81 @@
 					"itemText": "Community менеджер. Идеи по&nbsp;продвижению и&nbsp;созданию сильного комьюнити за&nbsp;ним. Vladimir работал с&nbsp;многими крупными NFT проектами на&nbsp;блокчейнах Ethereum, Solana, так же создаёт контент для известных брендов"
 				}
 			]
+		},
+		"sFAQ": {
+			"title": "faq",
+			"ddGroup": [
+				{
+					"active": "active",
+					"title": "что такое nft meta hunters?",
+					"content": [
+						"MetaHunters&nbsp;&mdash; это коллекция из&nbsp;4999 уникальных NFT на&nbsp;основе набирающего популярность блокчейна <a href='#'> TON.</a>",
+						"NFT из&nbsp;коллекции MetaHunters откроет в&nbsp;будущем доступ к&nbsp;увлекательной web3 игре Hunters World, даст преимущество над другими игроками, и&nbsp;возможность получать бонусы от&nbsp;стейкинга NFT.", 
+						"Художник Ocultura вручную нарисовал огромное количество внешних атрибутов, чтобы каждая из&nbsp;4999&nbsp;NFT была уникальной. Но&nbsp;отличия будут не&nbsp;только визуальные&nbsp;&mdash; отличаться будут внутренние характеристики, среди которых:",
+						"<strong>Редкость&nbsp;</strong>&mdash;  от&nbsp;простых до&nbsp;ЛЕГЕНДАРНЫХ персонажей!<br><strong>Фракция&nbsp;</strong>&mdash; 4&nbsp;разных фракции, о&nbsp;которых мы&nbsp;скоро вам расскажем!<br><strong>Оружие и&nbsp;магия&nbsp;</strong>&mdash; которыми вы&nbsp;будете побеждать других игроков в&nbsp;игре!<br><strong>Навыки и&nbsp;бонусы&nbsp;</strong>&mdash; дадут вам преимущество над другими героями!"
+					]
+				},
+				{
+					"active": "",
+					"title": "как я могу купить meta hunter nft?",
+					"content": [
+						"Продаже наших NFT Meta Hunters будет проходить в&nbsp;несколько этапов:",
+						"<strong>WHITELIST&nbsp;</strong>&mdash; Закрытый сейл только для самых ранних и&nbsp;активных участников комьюнити. Самая низкая цена NFT!<br><strong>PRESALE1&nbsp;</strong>&mdash; Первый сейл для участников комьюнити (цена выше WHITELIST)<br><strong>PRESALE2&nbsp;</strong>&mdash; Второй сейл для участников комьюнити (цена выше PRESALE1).<br><strong>PUBLIC&nbsp;SALE&nbsp;</strong>&mdash; Публичная продажа для всех желающих (цена выше PRESALE2)."
+					]
+				},
+				{
+					"active": "",
+					"title": "что такое nft meta hunters?",
+					"content": [
+						"Для покупки NFT и&nbsp;хранения TON мы&nbsp;рекомендуем Вам скачать:",
+						"&mdash;&nbsp;<a href='#'>кошелек TonKeeper</a><br>&mdash;&nbsp;<a href='#'>кошелек TonWallet IOS&nbsp;/ кошелек TonWallet Android</a>"
+					]
+				},
+				{
+					"active": "",
+					"title": "ГДЕ КУПИТЬ TON?",
+					"content": [
+						"&mdash;&nbsp;На&nbsp;криптобиржах: <a href='#'>FTX</a> (требует верификацию личности), <a href='#'>OKX</a> (для работы необходимо верифицировать только почту и&nbsp;телефон) <br> &mdash;&nbsp;Телеграм бот для покупки: <a href='#'>CryptoBot</a> или <a href='#'>Wallet</a> (доступна покупка прямо с&nbsp;карты, но&nbsp;запрашивает номер телефона) <br> &mdash;&nbsp;На&nbsp;сайте <a href='#'>BestChange</a>, в&nbsp;одном из&nbsp;обменников."
+					]
+				},
+				{
+					"active": "",
+					"title": "ЧТО ДЕЛАТЬ С NFT METAHUNTERS ПОСЛЕ ПОКУПКИ?",
+					"content": [
+						"Вскоре после завершения минта NFT мы&nbsp;запустим STAKING NFT (Стэйкинг NFT) для получения бонусов. Чем больше NFT, тем больше наград будет выдыватся в&nbsp;стейкинге!",
+						"Но&nbsp;самое интересно начнется после запуска Web3 игры Hunters World&nbsp;&mdash; в&nbsp;игре вы&nbsp;получите персонажа, который будет полностью идентичен вашему NFT. Вы&nbsp;будете быстрее развиваться и&nbsp;зарабатывать больше токенов, чем обычные игроки."
+					]
+				},
+				{
+					"active": "",
+					"title": "КАК Я МОГУ ПРИСОЕДИНИТЬСЯ К КОМЬЮНИТИ METAHUNTERS?",
+					"content": [
+						"Телеграм канал (<a href='#'>на&nbsp;русском языке</a>&nbsp;/ <a href='#'>на&nbsp;английском языке)</a>&nbsp;&mdash; все самые важные анонсы и&nbsp;конкурсы тут! ",
+						"Телеграм чат (<a href='#'>на&nbsp;русском языке</a>&nbsp;/ <a href='#'>на&nbsp;английском языке)</a>&nbsp;&mdash; общаемся, находим друзей и&nbsp;обсуждаем проект! А&nbsp;еще каждую неделю разыгрываем 100&nbsp;TON.",
+						"<a href='#'>Твиттер</a>&nbsp;&mdash; ну&nbsp;какая NFT-коллекция без твиттера?!",
+						"<a href='#'>Бот</a>&nbsp;&mdash; здесь мы&nbsp;проводим масштабный AIRDROP NFT , в&nbsp;котором&nbsp;Вы можете принять участие!"
+					]
+				},
+				{
+					"active": "",
+					"title": "NFT METAHUNTERS ХОРОШАЯ ИНВЕСТИЦИЯ?",
+					"content": [
+						"Вот три причины, почему стоит купить NFT из&nbsp;нашей коллекции:",
+						"<strong>PRE-SALE</strong>. Покупая NFT на&nbsp;PRE-SALE 1&nbsp;и&nbsp;2, вы&nbsp;берете ее&nbsp;по&nbsp;самой низкой цене, а&nbsp;те, кто купит NFT на&nbsp;PUBLIC сейле&nbsp;&mdash; купят ее&nbsp;дороже. Соответственно вы&nbsp;уже будете обладаете преимуществом.",
+						"После завершения минта мы&nbsp;запустим <strong>STAKING</strong>. Что такое стейкинг? Стейкинг NFT&nbsp;&mdash; это новый способ получения пассивного дохода в&nbsp;мире криптовалют. Он&nbsp;позволяет владельцам NFT блокировать активы на&nbsp;платформах DeFi и&nbsp;получать вознаграждения без необходимости продавать свои коллекции NFT. Это тоже самое, что и&nbsp;депозит под процент в&nbsp;банке или дивиденды с&nbsp;акций компании.",
+						"<strong>Наращивание аудитории</strong>. С&nbsp;каждым днем нас становится все больше и&nbsp;больше, желающих сминтить NFT от&nbsp;Meta Hunters стремительно растет. Мы&nbsp;каждый день работаем над развитием проекта. После запуска нашей web3 Hunters World игры их&nbsp;станет еще больше, но&nbsp;NFT они смогут купить только на&nbsp;вторичном рынке, где цену"
+					]
+				}
+			]
+		},
+		"sGallery": {
+			"title": "hunters world откроет двери<span> совсем скоро </span>",
+			"text": "Команда работает над геймплеем, системой развития навыков, репутации и&nbsp;сбора ресурсов в&nbsp;новом и&nbsp;захватывающем формате! Подробности в&nbsp;нашем комьюнити в&nbsp;Telegram и&nbsp;Twitter."
+		},
+		"sFooter": {
+			"title": "присоединяйтесь к нашему комьюнити",
+			"subtitle": "откройте для себя успешное финансовое будущее вместе с meta hunters",
+			"devops": "Разработка сайта – <span> artsman </span>"
 		}
 	},
 	"en": {
@@ -157,6 +232,81 @@
 					"itemText": "Vladimir Metahunters&nbsp;&mdash; community manager. He&nbsp;is&nbsp;responsible for developing ideas concerning promoting and creating a&nbsp;strong community. Vladimir has worked with many large NFT projects on&nbsp;the Ethereum and Solana blockchains, and also created content for well-known brands. He&nbsp;will tell you which NFT to&nbsp;buy, recently he&nbsp;has been talking about Metahunters."
 				}
 			]
+		},
+		"sFAQ": {
+			"title": "faq",
+			"ddGroup": [
+				{
+					"active": "active",
+					"title": "WHAT IS NFT METAHUNTERS?",
+					"content": [
+						"MetaHunters is&nbsp;a&nbsp;collection of&nbsp;4999 unique NFTs based on&nbsp;the increasingly popular TON blockchain.",
+						"NFT from the MetaHunters collection will provide access to&nbsp;the exciting web 3.0 game &laquo;Hunters World&raquo; and will give an&nbsp;advantage over other players together with the opportunity to&nbsp;receive bonuses from NFT staking.", 
+						"An&nbsp;Ocultura artist has hand-painted a&nbsp;huge amount of&nbsp;external attributes to&nbsp;ensure that each of&nbsp;the 4999&nbsp;NFTs is&nbsp;unique. But the differences will not only be&nbsp;visual, internal characteristics will differ as&nbsp;well, including:",
+						"<strong>&mdash;&nbsp;Rarity&nbsp;</strong>&mdash;  from simple to&nbsp;LEGENDARY characters!<br><strong>&mdash;&nbsp;Faction</strong>&mdash; 4&nbsp;different factions we&nbsp;will tell you about soon!<br><strong>&mdash;&nbsp;Weapons and magic&nbsp;</strong>&mdash; which will help you defeat other players in&nbsp;the game!<br><strong>&mdash;&nbsp;Skills and bonuses&nbsp;</strong>&mdash; will give you an&nbsp;advantage over other characters!"
+					]
+				},
+				{
+					"active": "",
+					"title": "HOW CAN I BUY NFT METAHUNTERS?",
+					"content": [
+						"The sale of&nbsp;our NFT Metahunters will take place in&nbsp;several stages:",
+						"<strong>WHITELIST</strong>&nbsp;&mdash; Closed sale only for the earliest and most active members of&nbsp;the community. Lowest NFT Price!<br><strong>PRESALE1</strong>&nbsp;&mdash; First sale is&nbsp;for community members (price is&nbsp;higher than for WHITELIST)<br><strong>PRESALE2</strong>&nbsp;&mdash; The second sale is&nbsp;for community members (the price is&nbsp;higher than in&nbsp;PRESALE1).<br><strong>PUBLIC</strong>&nbsp;SALE&nbsp;&mdash; Public sale is&nbsp;for everyone (the price is&nbsp;higher than in&nbsp;PRESALE2)."
+					]
+				},
+				{
+					"active": "",
+					"title": "WHAT WALLETS CAN I USE TO PURCHASE NFT?",
+					"content": [
+						"To&nbsp;buy NFT and store TON, we&nbsp;recommend you downloading:",
+						"&mdash;&nbsp;<a href='#'>wallet TonKeeper</a><br>&mdash;&nbsp;<a href='#'>TonWallet IOS Wallet&nbsp;/ кошелек TonWallet Android</a>"
+					]
+				},
+				{
+					"active": "",
+					"title": "WHERE CAN I BUY TON?",
+					"content": [
+						"&mdash;&nbsp;On&nbsp;crypto exchanges: <a href='#'>FTX</a> (requires identity verification), <a href='#'>OKX</a> (only email and phone need to&nbsp;be&nbsp;verified to&nbsp;work) <br> &mdash;&nbsp;Telegram bot for purchase: <a href='#'>CryptoBot</a> or&nbsp;<a href='#'>Wallet</a> (purchase by&nbsp;the card is&nbsp;available, but a&nbsp;phone number is&nbsp;required) <br> &mdash;&nbsp;On&nbsp;the <a href='#'>BestChange</a> website, in&nbsp;one of&nbsp;the exchangers."
+					]
+				},
+				{
+					"active": "",
+					"title": "WHAT CAN I DO WITH NFT METAHUNTERS AFTER PURCHASE?",
+					"content": [
+						"Shortly after the completion of&nbsp;the NFT mint, we&nbsp;will launch the STAKING NFT to&nbsp;receive bonuses. The more NFTs, the more rewards will be&nbsp;given out in&nbsp;staking!",
+						"But the most interesting thing will start after the launch of&nbsp;the web 3.0 game &laquo;Hunter&rsquo;s World&raquo;&nbsp;&mdash; in&nbsp;the game you will get a&nbsp;character that will be&nbsp;completely identical to&nbsp;your NFT. You will develop faster and earn more tokens than regular players."
+					]
+				},
+				{
+					"active": "",
+					"title": "HOW CAN I JOIN THE METAHUNTERS COMMUNITY?",
+					"content": [
+						"Telegram channel (<a href='#'>in&nbsp;russian</a>/ <a href='#'>in&nbsp;english</a>)&nbsp;&mdash; all the most important announcements and contests are here!",
+						"Telegram chat (<a href='#'>in&nbsp;russian</a>/ <a href='#'>in&nbsp;english</a>)&nbsp;&mdash; we&nbsp;communicate, make friends and discuss the project! And every week we&nbsp;raffle 100&nbsp;TON.",
+						"<a href='#'>Twitter</a>&nbsp;&mdash; well, what is&nbsp;an&nbsp;NFT-collection without twitter?!",
+						"<a href='#'>Bot</a>&nbsp;&mdash; here we&nbsp;make a&nbsp;large-scale NFT AIRDROP, in&nbsp;which you can take part!"
+					]
+				},
+				{
+					"active": "",
+					"title": "IS NFT METAHUNTERS A GOOD INVESTMENT?",
+					"content": [
+						"Here are four reasons why you should buy NFTs from our collection:",
+						"<strong>PRE-SALE</strong>. When buying NFT at&nbsp;PRE-SALE 1&nbsp;and&nbsp;2, you get it&nbsp;at&nbsp;the lowest price, and those who buy NFT at&nbsp;PUBLIC sale will buy it&nbsp;at&nbsp;a&nbsp;higher price. Accordingly, you will already have an&nbsp;advantage.",
+						"After finishing the mint, we&nbsp;will start <strong>STAKING</strong>. What is&nbsp;staking? NFT staking is&nbsp;a&nbsp;new way to&nbsp;generate passive income in&nbsp;the world of&nbsp;cryptocurrencies. It&nbsp;allows NFT holders to&nbsp;lock assets on&nbsp;DeFi platforms and earn rewards without having to&nbsp;sell their NFT collections. This is&nbsp;the same as&nbsp;a&nbsp;deposit at&nbsp;interest in&nbsp;a&nbsp;bank or&nbsp;dividends from company shares.",
+						"<strong>Increasing audience</strong>. Every day there are more and more of&nbsp;us who want to&nbsp;mint NFT from MetaHunters. We&nbsp;are developing the project every day. After the launch of&nbsp;our web 3.0 &laquo;Hunters World&raquo; game, there will be&nbsp;even more members, but they will be&nbsp;able to&nbsp;buy NFTs only on&nbsp;the secondary market, where YOU set the price! They will have no&nbsp;other choice but to&nbsp;buy NFT at&nbsp;a&nbsp;price that you set!"
+					]
+				}
+			]
+		},
+		"sGallery": {
+			"title": "Hunters World is about <span> to be launched! </span>",
+			"text": "The team is&nbsp;working on&nbsp;gameplay, skill development system, reputation and resource collecting in&nbsp;a&nbsp;new and exciting format. Check out our community, Facebook and Telegram for the further information."
+		},
+		"sFooter": {
+			"title": "join our community",
+			"subtitle": "Discover a successful financial future with Meta Hunters",
+			"devops": "Development – <span> artsman </span>"
 		}
 	},
 	"social":[

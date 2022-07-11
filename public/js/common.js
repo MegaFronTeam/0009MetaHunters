@@ -271,12 +271,12 @@ const JSCCommon = {
 								$(this).toggleClass('active');
 							});
 						}
-						else {
-							$(this.parentElement).removeClass('active');
-							$(this.parentElement).find('.dd-content-js').slideUp(function () {
-								$(this).removeClass('active');
-							});
-						}
+						// else {
+						// 	$(this.parentElement).removeClass('active');
+						// 	$(this.parentElement).find('.dd-content-js').slideUp(function () {
+						// 		$(this).removeClass('active');
+						// 	});
+						// }
 					});
 
 				});
@@ -331,25 +331,17 @@ function eventHandler() {
 
 
 	let defaultSl = {
-		spaceBetween: 0,
-		lazy: {
-			loadPrevNext: true,
-		},
-		watchOverflow: true,
-		spaceBetween: 0,
+		// slidesPerView: 'auto',
+		spaceBetween: 20,
+
 		loop: true,
-		navigation: {
-			nextEl: '.swiper-button-next',
-			prevEl: '.swiper-button-prev',
-		},
-		pagination: {
-			el: ' .swiper-pagination',
-			type: 'bullets',
-			clickable: true,
-			// renderBullet: function (index, className) {
-			// 	return '<span class="' + className + '">' + (index + 1) + '</span>';
-			// }
-		},
+		freeMode: false,
+		// speed: 6000,
+		loopFillGroupWithBlank: true,
+		autoplay: {
+      delay: 0, 
+      disableOnInteraction: false,
+    }, 
 	}
 
 	const swiper4 = new Swiper('.sBanners__slider--js', {
@@ -374,9 +366,36 @@ function eventHandler() {
 		speed: 6000,
 		loopFillGroupWithBlank: true,
 		autoplay: {
-      delay: 0, 
-      disableOnInteraction: false,
-    }, 
+			delay: 0, 
+			disableOnInteraction: false,
+		}, 
+	});
+
+	const sFAQSwiper = new Swiper('.sFAQ__slider--js', {
+		slidesPerView: 'auto',
+		spaceBetween: 0,
+
+		loop: true,
+		freeMode: false,
+		speed: 20000,
+		loopFillGroupWithBlank: true,
+		autoplay: {
+			delay: 0, 
+			disableOnInteraction: false,
+		}, 
+	});
+
+	const sGallerySwiper = new Swiper('.sGallery__slider--js', {
+		slidesPerView: 1,
+		spaceBetween: 0,
+		effect: "fade",
+		loop: true,
+		autoplay: {
+			delay: '4500',
+		},
+    fadeEffect: {
+      crossFade: true,
+    },
 	});
 
 };

@@ -1,0 +1,30 @@
+mixin sGallery(data)
+	// start sGallery
+	+b.SECTION.sGallery.section#sGallery&attributes(attributes)
+		+e.container.container
+			+img('img/sGalleryFireUp.png').fire-up
+			+img('img/sGalleryFireUp.png').fire-down
+
+			+e.row.row
+				+e.col.col-xl-6.order-last.order-xl-0
+					//- Bats
+					+img('img/green-bat.png').green-bat-1
+					+img('img/green-bat-2.png').green-bat-2
+					+img('img/green-bat-3.png').green-bat-3
+					+e.slider-wrap
+						+img('img/cover-iphone.png').img-cover
+						+e.slider--js.swiper
+							.swiper-wrapper
+								+e.slide.swiper-slide
+									+e.img-wrap
+										.img-wrap-center 
+											+img('img/sGallery-img-1.png')
+								+e.slide.swiper-slide
+									+e.img-wrap
+										.img-wrap-center 
+											+img('img/sWelcome-slider-1.jpg')
+				.col-xl-5.ms-auto
+					+b.section-title
+						h2!= data.title
+						p!= data.text
+	// end sGallery

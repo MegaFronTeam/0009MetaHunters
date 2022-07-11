@@ -21,7 +21,7 @@ mixin sWelcome(data)
 			+e.wrap.text-center
 				+img('img/sWelcome-img.png')
 				h5!= data.subText
-				+btnBase('присоединиться')
+				+btnBase()
 			+e.slider--js.swiper
 				.swiper-wrapper
 					mixin sliderItem(i)
