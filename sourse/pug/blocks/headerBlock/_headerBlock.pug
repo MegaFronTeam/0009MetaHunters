@@ -9,6 +9,17 @@ mixin headerBlock(data)
 				h5!= data.subtitle
 				p!= data.text
 				+btnBase('присоединиться')
+			+e.row-info.row
+				+e.col-info.col-auto
+					+e.info 
+						+polygon()
+						+img('img/svg/game.svg')
+						p!= data.game
+				+e.col-info.col-auto
+					+e.info 
+						+polygon()
+						+img('img/svg/game.svg')
+						p!= data.support
 			.row.text-center
 				+e.col-img.col-xl-4.d-none.d-xl-block
 					+img('img/header-img-1.png')

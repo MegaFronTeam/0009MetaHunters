@@ -7,14 +7,16 @@
 		"header": {
 			"title": "коллекция из 4999 уникальных nft на блокчейне TON",
 			"subtitle": "совместно с художником Occultra",
-			"text": "Успейте получить ранний доступ к&nbsp;pre-sale стадии, которая состоится в&nbsp;июле 2022 года и&nbsp;примите<br>участие в&nbsp;незабываемом путешествии в&nbsp;мир Web3 вместе с&nbsp;командой Meta Hunters!"
+			"text": "Успейте получить ранний доступ к&nbsp;pre-sale стадии, которая состоится в&nbsp;июле 2022 года и&nbsp;примите<br>участие в&nbsp;незабываемом путешествии в&nbsp;мир Web3 вместе с&nbsp;командой Meta Hunters!",
+			"game": "Web3 игра<br>Hunters World",
+			"support": "При поддержке getgems.io"
 		},
 		"nav":[
-			{	"name":"о проекте", "url":"#", "class": "menu-item-active"},
-			{	"name":"дорожная карта", "url":"#", "class": ""},
-			{"name":"команда", "url":"#", "class": ""},
-			{"name":"faq", "url":"#", "class": ""} ,
-			{"name":"комьюнити", "url":"#", "class": ""}
+			{	"name":"о проекте", "url":"#sWelcome", "class": "menu-item-active"},
+			{	"name":"дорожная карта", "url":"#sRoadMap", "class": ""},
+			{"name":"команда", "url":"#sTeam", "class": ""},
+			{"name":"faq", "url":"#sFAQ", "class": ""} ,
+			{"name":"комьюнити", "url":"#sGallery", "class": ""}
 		],
 		"sWelcome": {
 			"title": "добро пожаловать в meta hunters",
@@ -33,6 +35,73 @@
 				{
 					"itemTitle": "СКОРО",
 					"itemText": "стоимость nft"
+				}
+			]
+		},
+		"sRoadMap": {
+			"title": "дорожная карта",
+			"subtitle": "отправляйтесь в приключение вместе с нами",
+			"slider": [
+				{
+					"month": "ЯНВАРЬ-МАРТ",
+					"title": "Q1 2022",
+					"list": [
+						"Набор команды",
+						"Создание концепции",
+						"Начало отрисовки коллекции",
+						"Создание айдентики"
+					]
+				},
+				{
+					"month": "апрель-июнь",
+					"title": "Q2 2022",
+					"list": [
+						"Оформление и запуск социальных сетей ",
+						"Разработка игры «Hunters World»",
+						"Маркетинг-план",
+						"Конец отрисовки и генерация коллекции"
+					]
+				},
+				{
+					"month": "июль-сентябрь",
+					"title": "Q3 2022",
+					"list": [
+						"AirDrop / Раздача 133 NFT",
+						"Создание концепции",
+						"Минт / Whitelist, Pre-sale, Pre-sale 2, Public",
+						"Промо Web3 игры «Hunters World»",
+						"Staking NFT"
+					]
+				},
+				{
+					"month": "октябрь-декабрь",
+					"title": "Q4 2022",
+					"list": [
+						"Токеномика / создание собственного токена",
+						"Beta версия Web3 игры «Hunters World»",
+						"Интеграция NFT в «Hunters World»",
+						"Написание Whitepaper"
+					]
+				},
+				{
+					"month": "октябрь-декабрь",
+					"title": "Q4 2022",
+					"list": [
+						"Токеномика / создание собственного токена",
+						"Beta версия Web3 игры «Hunters World»",
+						"Интеграция NFT в «Hunters World»",
+						"Написание Whitepaper"
+					]
+				},
+				{
+					"month": "октябрь-декабрь",
+					"title": "Q4 2022",
+					"list": [
+						"Токеномика / создание собственного токена",
+						"Beta версия Web3 игры «Hunters World»",
+						"Интеграция NFT в «Hunters World»",
+						"Написание Whitepaper"
+					]
 				}
 			]
 		},
@@ -162,14 +231,16 @@
 		"header": {
 			"title": "the collection of 4999 unique NFTs on the TON blockchain",
 			"subtitle": "together with the artist Occulta",
-			"text": "Have time to&nbsp;get early access to&nbsp;the pre-sale stage, which will take place in&nbsp;July 2022, and take part in&nbsp;an&nbsp;unforgettable journey into the world of&nbsp;Web3 together with the Meta Hunters team!"
+			"text": "Have time to&nbsp;get early access to&nbsp;the pre-sale stage, which will take place in&nbsp;July 2022, and take part in&nbsp;an&nbsp;unforgettable journey into the world of&nbsp;Web3 together with the Meta Hunters team!",
+			"game": "Web3 game<br>Hunters World",
+			"support": "With the support<br>of getgems.io"
 		},
 		"nav":[
-			{	"name":"about", "url":"#", "class": "menu-item-active"},
-			{	"name":"Road map", "url":"#", "class": ""},
-			{"name":"team", "url":"#", "class": ""},
-			{"name":"faq", "url":"#", "class": ""} ,
-			{"name":"community", "url":"#", "class": ""}
+			{	"name":"about", "url":"#sWelcome", "class": "menu-item-active"},
+			{	"name":"Road map", "url":"#sRoadMap", "class": ""},
+			{"name":"team", "url":"#sTeam", "class": ""},
+			{"name":"faq", "url":"#sFAQ", "class": ""} ,
+			{"name":"community", "url":"#sGallery", "class": ""}
 		],
 		"sWelcome": {
 			"title": "WELCOME TO METAHUNTERS",
@@ -188,6 +259,72 @@
 				{
 					"itemTitle": "soon",
 					"itemText": "mint price"
+				}
+			]
+		},
+		"sRoadMap": {
+			"title": "road map",
+			"subtitle": "come on an adventure with us",
+			"slider": [
+				{
+					"month": "ЯНВАРЬ-МАРТ",
+					"title": "Q1 2022",
+					"list": [
+						"Team building",
+						"Creating a concept",
+						"The beginning of drawing the collection",
+						"Creating an identity"
+					]
+				},
+				{
+					"month": "апрель-июнь",
+					"title": "Q2 2022",
+					"list": [
+						"Design and launch of social networks",
+						"Development of&nbsp;the game &laquo;Hunters World&raquo;",
+						"Marketing Plan",
+						"Completion of drawing and collection generation"
+					]
+				},
+				{
+					"month": "июль-сентябрь",
+					"title": "Q3 2022",
+					"list": [
+						"AirDrop 133 NFT",
+						"Mint / Whitelist, Pre-sale, Pre-sale 2, Public",
+						"Promo Web3 game &laquo;Hunters World&raquo;",
+						"Staking NFT"
+					]
+				},
+				{
+					"month": "октябрь-декабрь",
+					"title": "Q4 2022",
+					"list": [
+						"Tokenomics / creating own token",
+						"Beta version of&nbsp;the Web3 game &laquo;Hunters World&raquo;",
+						"NFT integration into Hunters World",
+						"Writing Whitepaper"
+					]
+				},
+				{
+					"month": "октябрь-декабрь",
+					"title": "Q4 2022",
+					"list": [
+						"Tokenomics / creating own token",
+						"Beta version of&nbsp;the Web3 game &laquo;Hunters World&raquo;",
+						"NFT integration into Hunters World",
+						"Writing Whitepaper"
+					]
+				},
+				{
+					"month": "октябрь-декабрь",
+					"title": "Q4 2022",
+					"list": [
+						"Tokenomics / creating own token",
+						"Beta version of&nbsp;the Web3 game &laquo;Hunters World&raquo;",
+						"NFT integration into Hunters World",
+						"Writing Whitepaper"
+					]
 				}
 			]
 		},
@@ -308,27 +445,5 @@
 			"subtitle": "Discover a successful financial future with Meta Hunters",
 			"devops": "Development – <span> artsman </span>"
 		}
-	},
-	"social":[
-		"fb","instagram","telegram"
-	],
-	"index":{
-		"head": {
-			"title": "тест dffsdf dfsdтест 2222"
-		}
-	},
-	"items": [
-			{
-			"title": "заловок",
-			"text": "текст"
-		},
-			{
-			"title": "заловок 22",
-			"text": "текст"
-		},
-			{
-			"title": "заловок 33",
-			"text": "текст"
-			}
-		]
+	}
 	}

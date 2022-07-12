@@ -1,0 +1,31 @@
+mixin sRoadMap(data)
+	// start sRoadMap
+	+b.SECTION.sRoadMap.section#sRoadMap&attributes(attributes)
+		+e.container.container
+			+img('img/threeBats.png').left
+			+img('img/threeBats.png').right
+			+b.section-title.text-center
+				h2!= data.title
+				h5!= data.subtitle
+			+e.card-slider--js
+				.swiper-wrapper
+					each slide in data.slider
+						+e.card-slide.swiper-slide
+							+e.month!= slide.month
+							.h3!= slide.title
+							ul
+								each item in slide.list
+									li!= item
+				.swiper-pagination
+			+btnBase
+		+e.swiper-angle--2
+			+e.slider--js.swiper
+				.swiper-wrapper
+					+e.slide.swiper-slide
+						+img(`img/sRoadMap-img-2.png`)
+		+e.swiper-angle
+			+e.slider--js.swiper
+				.swiper-wrapper
+					+e.slide.swiper-slide
+						+img(`img/sRoadMap-img-1.png`)
+	// end sRoadMap

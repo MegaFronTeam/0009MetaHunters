@@ -398,6 +398,38 @@ function eventHandler() {
     },
 	});
 
+	const sRoadMapSwiper = new Swiper('.sRoadMap__slider--js', {
+		slidesPerView: 'auto',
+		spaceBetween: 0,
+
+		loop: true,
+		freeMode: false,
+		speed: 20000,
+		loopFillGroupWithBlank: true,
+		autoplay: {
+			delay: 0, 
+			disableOnInteraction: false,
+		}, 
+	});
+
+	const sRoadMapCardSwiper = new Swiper('.sRoadMap__card-slider--js', {
+		slidesPerView: 'auto',
+		// slidesPerView: 3,
+		spaceBetween: 20,
+		pagination: {
+			el: '.swiper-pagination',
+			type: 'bullets',
+		},
+		breakpoints: {
+			768: {
+				slidesPerView: 2,
+			},
+			992: {
+				slidesPerView: 3,
+			}
+		}
+	});
+
 };
 if (document.readyState !== 'loading') {
 	eventHandler();

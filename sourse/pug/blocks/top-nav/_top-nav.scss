@@ -2,11 +2,20 @@
 	padding: rem(15) rem(10);
 	position: relative;
 	z-index: 1010;
+	@include mt;
 	@include media-breakpoint-up(sm) {
 		padding: rem(15) rem(25);
 	}
 	@include media-breakpoint-up(md) {
 		padding: rem(40);
+	}
+	&.fixed {
+		position: fixed;
+		width: 100%;
+		top: 0;
+		left: 0;
+		padding: rem(15) rem(25);
+		background-color: $gray-900;
 	}
 	&__row {
 		align-items: center;

@@ -56,6 +56,61 @@
 			font-size: rem(18);
 		}
 	}
+	&__info {
+		position: relative;
+		width: rem(128);
+		height: rem(128);
+		text-align: center;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		@include media-breakpoint-up(sm) {
+			width: rem(160);
+			height: rem(160);
+		}
+		.polygon {
+			position: absolute;
+			top: 0;
+			left: 0;
+			svg {
+				width: rem(128);
+				height: rem(128);
+				@include media-breakpoint-up(sm) {
+					width: rem(160);
+					height: rem(160);
+				}
+			}
+		}
+		p {
+			margin-bottom: 0;
+			font-size: rem(14);
+			font-weight: 700;
+			@include media-breakpoint-up(lg) {
+				font-size: rem(16);
+			}
+		}
+	}
+	&__row-info {
+		justify-content: center;
+	}
+	&__col-info {
+		@media (min-width: 1600px) {
+			position: absolute;
+			bottom: 40px;
+		}
+		&:nth-child(1) {
+			@media (min-width: 1600px) {
+				left: calc(((100vw - 100%) / -2) + 40px);
+			}
+		}
+		&:nth-child(2) {
+			@media (min-width: 1600px) {
+				right: calc(((100vw - 100%) / -2) + 40px);
+			}
+		}
+	}
 	@include media-breakpoint-up(xl) {}
 
 	@include media-breakpoint-up(lg) {}
