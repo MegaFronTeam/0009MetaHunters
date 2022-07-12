@@ -220,7 +220,7 @@
 		"sFooter": {
 			"title": "присоединяйтесь к нашему комьюнити",
 			"subtitle": "откройте для себя успешное финансовое будущее вместе с meta hunters",
-			"devops": "Разработка сайта – <span> artsman </span>"
+			"devops": "Разработка сайта – <a href='#'> artsman </a>"
 		}
 	},
 	"en": {
@@ -443,7 +443,7 @@
 		"sFooter": {
 			"title": "join our community",
 			"subtitle": "Discover a successful financial future with Meta Hunters",
-			"devops": "Development – <span> artsman </span>"
+			"devops": "Development – <a href='#'> artsman </a>"
 		}
 	}
 	}

@@ -489,6 +489,12 @@ iframe {
 	// @include row-sw(10px, sm, 100px);
 }
 
+h1, h2 {
+	@include media-breakpoint-up(xxl) {
+		font-size: rem(60);
+	}
+}
+
 h2 {
 	@include media-breakpoint-down(md) {
 		font-size: rem(30);

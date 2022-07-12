@@ -9,11 +9,11 @@
 	@include media-breakpoint-up(md) {
 		padding: rem(40);
 	}
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
 	&.fixed {
-		position: fixed;
-		width: 100%;
-		top: 0;
-		left: 0;
 		padding: rem(15) rem(25);
 		background-color: $gray-900;
 	}

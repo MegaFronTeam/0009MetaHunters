@@ -153,10 +153,15 @@
 			@include media-breakpoint-up(lg) {
 				width: rem(245);
 			}
-			span {
+			a {
 				font-weight: 700;
 				text-transform: uppercase;
 				font-size: rem(16);
+				display: inline;
+				text-decoration: none;
+				&:not(:hover) {
+					color: #fff;
+				}
 				@include media-breakpoint-up(lg) {
 					font-size: rem(18);
 				}

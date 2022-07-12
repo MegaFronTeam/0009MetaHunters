@@ -20,11 +20,12 @@ mixin headerBlock(data)
 						+polygon()
 						+img('img/svg/game.svg')
 						p!= data.support
-			.row.text-center
-				+e.col-img.col-xl-4.d-none.d-xl-block
-					+img('img/header-img-1.png')
-				+e.col-img.col-xl-4
-					+img('img/header-img-2.png')
-				+e.col-img.col-xl-4.d-none.d-xl-block
-					+img('img/header-img-3.png')
+			+e.row-wrap
+				.row.text-center
+					+e.col-img.col-xl-4.d-none.d-xl-block
+						+img('img/header-img-1.png')
+					+e.col-img.col-xl-4
+						+img('img/header-img-2.png')
+					+e.col-img.col-xl-4.d-none.d-xl-block
+						+img('img/header-img-3.png')
 	// end headerBlock

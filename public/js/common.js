@@ -400,7 +400,7 @@ function eventHandler() {
 
 	const sRoadMapSwiper = new Swiper('.sRoadMap__slider--js', {
 		slidesPerView: 'auto',
-		spaceBetween: 0,
+		spaceBetween: -1,
 
 		loop: true,
 		freeMode: false,

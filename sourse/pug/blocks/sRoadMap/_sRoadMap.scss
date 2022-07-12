@@ -68,8 +68,14 @@
 		bottom: 0;
 		// top: 50%;
 		transform: rotate(-5deg) ;
+		img {
+			background-color: #232325;
+		}
 		&--2 {
 			transform: rotate(5deg);
+			img {
+				background-color: $primary;
+			}
 		}
 	}
 	&__slider {
