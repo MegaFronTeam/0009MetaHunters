@@ -419,6 +419,7 @@ function eventHandler() {
 		pagination: {
 			el: '.swiper-pagination',
 			type: 'bullets',
+			clickable: true,
 		},
 		breakpoints: {
 			768: {
