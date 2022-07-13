@@ -16,7 +16,7 @@
 			{	"name":"дорожная карта", "url":"#sRoadMap", "class": ""},
 			{"name":"команда", "url":"#sTeam", "class": ""},
 			{"name":"faq", "url":"#sFAQ", "class": ""} ,
-			{"name":"комьюнити", "url":"#sGallery", "class": ""}
+			{"name":"комьюнити", "url":"#footer", "class": ""}
 		],
 		"sWelcome": {
 			"title": "добро пожаловать в meta hunters",
@@ -220,13 +220,13 @@
 			]
 		},
 		"sGallery": {
-			"title": "hunters world откроет двери<span> совсем скоро </span>",
+			"title": "Web3 игра<br>Hunters World<br><span> Coming soon </span>",
 			"text": "Команда работает над геймплеем, системой развития навыков, репутации и&nbsp;сбора ресурсов в&nbsp;новом и&nbsp;захватывающем формате! Подробности в&nbsp;нашем комьюнити в&nbsp;Telegram и&nbsp;Twitter."
 		},
 		"footer": {
 			"title": "присоединяйтесь к нашему комьюнити",
 			"subtitle": "откройте для себя успешное финансовое будущее вместе с meta hunters",
-			"devops": "Разработка сайта – <a href='https://t.me/arts_man' target='_blank'> artsman </a>"
+			"devops": "Сайт – <a href='https://t.me/arts_man' target='_blank'> artsman </a>"
 		}
 	},
 	"en": {
@@ -449,7 +449,7 @@
 			]
 		},
 		"sGallery": {
-			"title": "Hunters World is about <span> to be launched! </span>",
+			"title": "Web3 game<br>Hunters World<br><span> Coming soon </span>",
 			"text": "The team is&nbsp;working on&nbsp;gameplay, skill development system, reputation and resource collecting in&nbsp;a&nbsp;new and exciting format. Check out our community, Facebook and Telegram for the further information."
 		},
 		"footer": {

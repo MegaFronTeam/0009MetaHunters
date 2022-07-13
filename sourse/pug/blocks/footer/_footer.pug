@@ -1,5 +1,5 @@
 mixin footer(data)
-	+b.FOOTER.footer
+	+b.FOOTER.footer#footer
 		+e.container.container
 			//- +img('img/fire-solid.png').fire
 			+img('img/header-img-2.png').magican-1
@@ -27,5 +27,5 @@ mixin footer(data)
 			.col-auto.order-1.order-lg-2
 				a(href="")
 					+img('img/logo.png')
-			.col-auto.order-3.order-lg-3
+			+e.col-prod.col-auto.order-3.order-lg-3
 				p!= data.devops

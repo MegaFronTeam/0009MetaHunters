@@ -196,6 +196,12 @@
 			margin-bottom: 0;
 		}
 	}
+	&__col-prod {
+		opacity: 0;
+		@include media-breakpoint-up(lg) {
+			text-align: right;
+		}
+	}
 @include media-breakpoint-up(xl) {}
 
 @include media-breakpoint-up(lg) {}
