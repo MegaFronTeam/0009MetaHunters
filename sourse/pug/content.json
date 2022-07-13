@@ -12,7 +12,7 @@
 			"support": "При поддержке getgems.io"
 		},
 		"nav":[
-			{	"name":"о проекте", "url":"#sWelcome", "class": "menu-item-active"},
+			{	"name":"о проекте", "url":"#sWelcome"},
 			{	"name":"дорожная карта", "url":"#sRoadMap", "class": ""},
 			{"name":"команда", "url":"#sTeam", "class": ""},
 			{"name":"faq", "url":"#sFAQ", "class": ""} ,
@@ -110,36 +110,42 @@
 			"subTitle": "Залог успешного проекта - хорошее комьюнити и опытная команда",
 			"sTeamItems": [
 				{
+					"link": "https://t.me/mihailhunters",
 					"itemImg": "1",
 					"icon": "telegram",
 					"itemTitle": "mihail",
 					"itemText": "Креативный директор, отвечает<br>за&nbsp;концепцию игры и&nbsp;руководит всем творческим процессом,<br>12&nbsp;лет в&nbsp;сфере дизайна и&nbsp;более<br>2-х лет в&nbsp;NFT"
 				},
 				{
+					"link": "https://t.me/Metahunter1",
 					"itemImg": "2",
 					"icon": "telegram",
 					"itemTitle": "danil",
 					"itemText": "Настоящий криптоэнтузиаст, отвечает за&nbsp;все внутренние процессы и&nbsp;команду, 3&nbsp;года в&nbsp;IT<br>в&nbsp;роли CEO и&nbsp;несколько успешных проектов<br>за&nbsp;спиной"
 				},
 				{
+					"link": "#",
 					"itemImg": "3",
 					"icon": "",
 					"itemTitle": "Satoshison",
 					"itemText": "Blockchain Developer, когда его<br>одноклассники изучали в&nbsp;школе таблицу<br>умножения, Satoshison написал свой первый<br>смарт-контракт.🥸Бывший инженер компании ANKR"
 				},
 				{
+					"link": "https://www.instagram.com/occultra/",
 					"itemImg": "4",
 					"icon": "instagram",
 					"itemTitle": "occultra",
 					"itemText": "Стрит-арт художник, отвечающий за визуальную часть и&nbsp;полностью отрисовавший коллекцию. Работал с&nbsp;такими крупными брендами как Reebok, G-Shock, Levi&rsquo;s, DC. и&nbsp;др."
 				},
 				{
+					"link": "https://t.me/Metahunter3",
 					"itemImg": "5",
 					"icon": "telegram",
 					"itemTitle": "kirill",
 					"itemText": "Маркетинг менеджер, который работал со многими звёздами СНГ и&nbsp;Европы по&nbsp;крипто-проектам и&nbsp;NFT. Помните Бузкоин? Так вот, он к&nbsp;нему отношения не&nbsp;имеет, Kirill уверяет вас, что Meta Hunters обречён на&nbsp;успех"
 				},
 				{
+					"link": "https://t.me/metahunter2",
 					"itemImg": "6",
 					"icon": "telegram",
 					"itemTitle": "vladimir",
@@ -333,36 +339,42 @@
 			"subTitle": "a good community and an experienced team are the key to a successful project",
 			"sTeamItems": [
 				{
+					"link": "https://t.me/mihailhunters",
 					"itemImg": "1",
 					"icon": "telegram",
 					"itemTitle": "mihail",
 					"itemText": "Mihail Metahunters&nbsp;&mdash; Creative Director, responsible for the concept of&nbsp;the game. He&nbsp;manages the entire creative process, having 12&nbsp;years of&nbsp;experience in&nbsp;design and more than 2&nbsp;years in&nbsp;NFT."
 				},
 				{
+					"link": "https://t.me/Metahunter1",
 					"itemImg": "2",
 					"icon": "telegram",
 					"itemTitle": "danil",
 					"itemText": "Danil Metahunters&nbsp;&mdash; A&nbsp;real crypto enthusiast, responsible for all internal processes and the team itself, having 3&nbsp;years of&nbsp;experience as&nbsp;CEO and several successful projects behind."
 				},
 				{
+					"link": "#",
 					"itemImg": "3",
 					"icon": "",
 					"itemTitle": "Satoshison",
-					"itemText": "Blockchain Developer, когда его одноклассники изучали в&nbsp;школе таблицу умножения, Satoshison написал свой первый смарт-контракт.🥸Бывший инженер компании ANKR"
+					"itemText": "Blockchain Developer, while his classmates were studying the multiplication table at school, Satoshi was writing his first smart contract.  Former ANKR Engineer."
 				},
 				{
+					"link": "https://www.instagram.com/occultra/",
 					"itemImg": "4",
 					"icon": "instagram",
 					"itemTitle": "occultra",
 					"itemText": "Occultra is&nbsp;the street art artist in&nbsp;charge of&nbsp;the visuals and complete rendering of&nbsp;the collection. Worked with such big brands as&nbsp;Reebok, G-Shock, Levi&rsquo;s, DC&nbsp;and etc."
 				},
 				{
+					"link": "https://t.me/Metahunter3",
 					"itemImg": "5",
 					"icon": "telegram",
 					"itemTitle": "kirill",
 					"itemText": "Kirill Metahunters is&nbsp;a&nbsp;marketing manager who has worked on&nbsp;crypto projects and NFTs with many CIS and European stars. Remember Buzcoin? So, he&nbsp;has nothing to&nbsp;do&nbsp;with it&nbsp;Kirill assures you that Metahunters is&nbsp;doomed to&nbsp;success because this is&nbsp;his most interesting and promising project for a&nbsp;long time in&nbsp;a&nbsp;while."
 				},
 				{
+					"link": "https://t.me/metahunter2",
 					"itemImg": "6",
 					"icon": "telegram",
 					"itemTitle": "vladimir",

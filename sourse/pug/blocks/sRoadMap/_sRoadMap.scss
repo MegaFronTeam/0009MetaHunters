@@ -154,6 +154,7 @@
 			border: 1px solid #FFFFFF;
 			width: 10px;
 			height: 10px;
+			--w: calc(100% / 3);
 			@include media-breakpoint-up(lg) {
 				width: 20px;
 				height: 20px;
@@ -163,10 +164,11 @@
 					content: '';
 					position: absolute;
 					display: block;
-					width: calc(100% / 3);
+					width: var(--w);
 					height: 2px;
 					background-color: transparent;
 					top: 9px;
+					left: 5px;
 					z-index: -1;
 				}
 			}
@@ -187,13 +189,58 @@
 					}
 				}
 			}
-			&:last-child {
+			// &:last-child {
+			// 	&.swiper-pagination-bullet-active {
+			// 		&:before {
+			// 			@include media-breakpoint-up(lg) {
+			// 				background-color: transparent;
+			// 			}
+			// 		}
+			// 	}
+			// }
+			&:nth-child(1) {
+				@include media-breakpoint-up(lg) {
+					background-color: $primary;
+					border-color: $primary;
+				}
+			}
+			&:nth-child(2) {
 				&.swiper-pagination-bullet-active {
-					&:before {
-						@include media-breakpoint-up(lg) {
-							background-color: transparent;
+					@include media-breakpoint-up(lg) {
+						&:before { 
+							--w: calc(66%);
+							background-color: $primary;
+							left: 5px;
 						}
 					}
+				}
+			}
+			&:nth-child(3) {
+				&.swiper-pagination-bullet-active {
+					@include media-breakpoint-up(lg) {
+						&:before { 
+							--w: calc(99%);
+							background-color: $primary;
+							left: 5px;
+						}
+					}
+				}
+			}
+			&:nth-child(4) {
+				&.swiper-pagination-bullet-active {
+					@include media-breakpoint-up(lg) {
+						&:before { 
+							--w: calc(99%);
+							background-color: $primary;
+							left: 5px;
+						}
+					}
+				}
+			}
+			&:nth-child(5) {
+				@include media-breakpoint-down(lg) {
+					opacity: 0;
+					pointer-events: none;
 				}
 			}
 		}
@@ -214,6 +261,14 @@
 		}
 		@include media-breakpoint-up(md) {
 			max-width: rem(380);
+		}
+		&:nth-child(5), &:nth-child(6) {
+			opacity: 0;
+			width: 0 !important;
+			padding: 0;
+			height: 0 !important;
+			@include media-breakpoint-up(lg) {
+			}
 		}
 		.h3 {
 			margin-bottom: rem(17);

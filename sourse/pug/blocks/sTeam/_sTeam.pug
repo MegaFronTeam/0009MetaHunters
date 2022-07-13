@@ -10,7 +10,7 @@ mixin sTeam(data)
 			+e.row.row
 				each item in data.sTeamItems
 					+e.col.col-6.col-lg-4
-						+e.item.text-center
+						+e.item(href=`${item.link}` target="_blank").text-center
 							+e.img-wrap
 								.img-wrap-center
 									+img(`img/sTeam-img-${item.itemImg}.jpg`)

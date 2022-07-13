@@ -82,7 +82,7 @@
 	display: block;
 	padding: rem(17) rem(33);
 	position: relative;
-	z-index: 2;
+	// z-index: 2;
 	text-decoration: none;
 	width: 100%;
 	max-width: rem(240);
@@ -100,7 +100,7 @@
 		box-shadow: 0px 0px 50px rgba(54, 255, 81, 0.5);
 		border-radius: 10px;
 		transform: perspective(280px) rotateX(206deg);
-		z-index: -1;
+		// z-index: -1;
 		&:before {
 			@include mt;
 			content: '';
@@ -129,7 +129,7 @@
 		text-decoration: none;
 		font-size: rem(18);
 		position: relative;
-    z-index: 10;
+    // z-index: 10;
 		@include media-breakpoint-up(md) {
 			font-size: rem(20);
 		}

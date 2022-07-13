@@ -66,8 +66,19 @@
 				}
 			}
 		}
+		&:nth-child(3) {
+			.sTeam__item {
+				pointer-events: none;
+			}
+		}
 	}
 	&__item{
+		text-decoration: none;
+		&:hover {
+			h5 {
+				color: $primary;
+			}
+		}
 		img {
 			// border-radius: 10px;
 			// margin-bottom: rem(20);
@@ -76,7 +87,10 @@
 			// }
 		}
 		h5 {
+			@include mt;
 			margin-bottom: rem(10);
+			text-decoration: none;
+			color: #fff;
 			@include media-breakpoint-down(lg) {
 				font-size: rem(16);
 			}
@@ -90,6 +104,8 @@
 			}
 		}
 		p {
+			color: #fff;
+			text-decoration: none;
 			opacity: .5;
 			line-height: 1.25em;
 			margin-bottom: 0;

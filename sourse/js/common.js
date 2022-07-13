@@ -288,25 +288,18 @@ const $ = jQuery;
 
 function eventHandler() {
 	// JSCCommon.ifie();
-	JSCCommon.modalCall();
+	// JSCCommon.modalCall();
 	// JSCCommon.tabscostume('tabs');
 	JSCCommon.mobileMenu();
-	JSCCommon.inputMask();
+	// JSCCommon.inputMask();
 	// JSCCommon.sendForm();
-	JSCCommon.heightwindow();
+	// JSCCommon.heightwindow();
 	JSCCommon.makeDDGroup();
 	JSCCommon.getCurrentYear('.footer__col-text span');
 	// JSCCommon.toggleShow(".catalog-block__toggle--desctop", '.catalog-block__dropdown');
 	// JSCCommon.animateScroll();
 	
 	// JSCCommon.CustomInputFile(); 
-	var x = window.location.host;
-	let screenName;
-	screenName = document.body.dataset.bg;
-	if (screenName && x.includes("localhost:30")) {
-		document.body.insertAdjacentHTML("beforeend", `<div class="pixel-perfect" style="background-image: url(screen/${screenName});"></div>`);
-	}
-
 
 	function setFixedNav() {
 		let topNav = document.querySelector('.top-nav  ');
@@ -331,32 +324,6 @@ function eventHandler() {
 	whenResize();
 
 
-	let defaultSl = {
-		// slidesPerView: 'auto',
-		spaceBetween: 20,
-
-		loop: true,
-		freeMode: false,
-		// speed: 6000,
-		loopFillGroupWithBlank: true,
-		autoplay: {
-      delay: 0, 
-      disableOnInteraction: false,
-    }, 
-	}
-
-	const swiper4 = new Swiper('.sBanners__slider--js', {
-		// slidesPerView: 5,
-		...defaultSl,
-		slidesPerView: 'auto',
-		freeMode: true,
-		loopFillGroupWithBlank: true,
-		touchRatio: 0.2,
-		slideToClickedSlide: true,
-		freeModeMomentum: true,
-
-	});
-	// modal window
 
 	const sWelcomeSwiper = new Swiper('.sWelcome__slider--js', {
 		slidesPerView: 'auto',
@@ -374,7 +341,7 @@ function eventHandler() {
 
 	const sFAQSwiper = new Swiper('.sFAQ__slider--js', {
 		slidesPerView: 'auto',
-		spaceBetween: 0,
+		spaceBetween: 30,
 
 		loop: true,
 		freeMode: false,
@@ -432,6 +399,49 @@ function eventHandler() {
 		}
 	});
 
+	var lastId,
+    topMenu = $(".menu"),
+    topMenuHeight = topMenu.outerHeight()+15,
+    // All list items
+    menuItems = topMenu.find("a"),
+    // Anchors corresponding to menu items
+    scrollItems = menuItems.map(function(){
+      var item = $($(this).attr("href"));
+      if (item.length) { return item; }
+    });
+
+	// Bind click handler to menu items
+	// so we can get a fancy scroll animation
+	menuItems.click(function(e){
+		var href = $(this).attr("href"),
+				offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
+		$('html, body').stop().animate({ 
+				scrollTop: offsetTop
+		}, 300);
+		e.preventDefault();
+	});
+	// Bind to scroll
+	$(window).scroll(function(){
+		// Get container scroll position
+		var fromTop = $(this).scrollTop()+topMenuHeight;
+		
+		// Get id of current scroll item
+		var cur = scrollItems.map(function(){
+			if ($(this).offset().top < fromTop)
+				return this;
+		});
+		// Get the id of the current element
+		cur = cur[cur.length-1];
+		var id = cur && cur.length ? cur[0].id : "";
+		
+		if (lastId !== id) {
+				lastId = id;
+				// Set/remove active class
+				menuItems
+					.parent().removeClass("menu-item-active")
+					.end().filter("[href='#"+id+"']").parent().addClass("menu-item-active");
+		}                   
+	});
 };
 if (document.readyState !== 'loading') {
 	eventHandler();
