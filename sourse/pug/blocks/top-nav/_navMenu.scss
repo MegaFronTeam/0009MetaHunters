@@ -98,7 +98,7 @@
 	.menu-mobile {
 		background-color: $gray-900;
 		position: fixed !important;
-		z-index: -1;
+		z-index: 1;
 		max-width: 100%;
 		height: calc(var(--vh, 1vh) * 100);
 		width: 100%;

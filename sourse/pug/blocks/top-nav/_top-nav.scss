@@ -3,7 +3,8 @@
 	z-index: 1010;
 	.top-nav__row {
 		padding: rem(15) rem(10);
-
+		position: relative;
+		z-index: 3;
 	}
 	@include mt;
 	@include media-breakpoint-up(sm) {
