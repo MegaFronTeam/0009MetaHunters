@@ -110,7 +110,7 @@
 			bottom: 6px;
 			width: calc(100% - 5px);
 			height: 100%;
-			transform: perspective(360px) rotateX(186deg);
+			// transform: perspective(360px) rotateX(186deg);
 			background-color: rgba($color: $primary, $alpha: .5);
 			border-radius: 10px;
 		}
