@@ -136,6 +136,10 @@
 		border-radius: 15px;
 		overflow: hidden;
 		max-width: rem(280);
+		@include media-breakpoint-down(md) {
+			--ratio: 130/130;
+			max-width: rem(130);
+		}
 		img {
 			position: absolute;
 			top: 0;

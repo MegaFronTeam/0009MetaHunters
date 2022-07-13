@@ -1,8 +1,8 @@
 {
 	"ru": {
-		"title": "MetaHunters",
+		"title": "Meta Hunters - Коллекция из 4999 уникальных NFT на блокчейне TON совместно с художником Occultra",
 		"lang": "ru",
-		"description": "КОЛЛЕКЦИЯ ИЗ 4999 УНИКАЛЬНЫХ NFT НА БЛОКЧЕЙНЕ TON",
+		"description": "Meta Hunters откроет доступ к Web3 игре Hunters World, стейкингу NFT и другим бонусам! 4999 уникальных NFT Meta Hunters на блокчейне TON позволят получить преимущество в Web3 игре Hunters World, быстрее развиваться и зарабатывать больше токенов, а также вы сможете застейкать любое количество наших NFT, чтобы получать еще больше выгоды!",
 		"btn": "присоединиться",
 		"header": {
 			"title": "коллекция из 4999 уникальных nft на блокчейне TON",
@@ -71,26 +71,6 @@
 						"Минт / Whitelist, Pre-sale, Pre-sale 2, Public",
 						"Промо Web3 игры «Hunters World»",
 						"Staking NFT"
-					]
-				},
-				{
-					"month": "октябрь-декабрь",
-					"title": "Q4 2022",
-					"list": [
-						"Токеномика / создание собственного токена",
-						"Beta версия Web3 игры «Hunters World»",
-						"Интеграция NFT в «Hunters World»",
-						"Написание Whitepaper"
-					]
-				},
-				{
-					"month": "октябрь-декабрь",
-					"title": "Q4 2022",
-					"list": [
-						"Токеномика / создание собственного токена",
-						"Beta версия Web3 игры «Hunters World»",
-						"Интеграция NFT в «Hunters World»",
-						"Написание Whitepaper"
 					]
 				},
 				{
@@ -220,17 +200,17 @@
 		"footer": {
 			"title": "присоединяйтесь к нашему комьюнити",
 			"subtitle": "откройте для себя успешное финансовое будущее вместе с meta hunters",
-			"devops": "Разработка сайта – <a href='https://t.me/arts_man'> artsman </a>"
+			"devops": "Разработка сайта – <a href='https://t.me/arts_man' target='_blank'> artsman </a>"
 		}
 	},
 	"en": {
-		"title": "MetaHunters",
+		"title": "The Collection of 4999 unique NFT’s on the TON blockchain together with the artist Occultra",
 		"lang": "en",
-		"description": "the collection of 4999 unique NFTs on the TON blockchain",
+		"description": "Meta Hunters will open access to Web3 game Hunters World, NFT, Staking and other bonuses! 4999 unique NFT Metahunters on the TON blockchain will allow you to gain an advantage in the web 3.0 game «Hunters World», develop faster and earn more tokens. Moreover you can stake as many of our NFTs as you want for even greater benefits!",
 		"btn": "join",
 		"header": {
 			"title": "the collection of 4999 unique NFTs on the TON blockchain",
-			"subtitle": "together with the artist Occulta",
+			"subtitle": "together with the artist Occultra",
 			"text": "Have time to&nbsp;get early access to&nbsp;the pre-sale stage, which will take place in&nbsp;July 2022, and take part in&nbsp;an&nbsp;unforgettable journey into the world of&nbsp;Web3 together with the Meta Hunters team!",
 			"game": "Web3 game<br>Hunters World",
 			"support": "With the support<br>of getgems.io"
@@ -443,7 +423,7 @@
 		"footer": {
 			"title": "join our community",
 			"subtitle": "Discover a successful financial future with Meta Hunters",
-			"devops": "Development – <a href='https://t.me/arts_man'> artsman </a>"
+			"devops": "Development – <a href='https://t.me/arts_man' target='_blank'> artsman </a>"
 		}
 	}
 }

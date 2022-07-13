@@ -84,6 +84,9 @@
 				padding: rem(28) 0;
 				font-size: rem(20);
 			}
+			&:hover {
+				color: $primary;
+			}
 		}
 		&__content {
 			display: none;

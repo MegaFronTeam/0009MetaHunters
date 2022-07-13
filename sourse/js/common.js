@@ -374,7 +374,7 @@ function eventHandler() {
 
 	const sFAQSwiper = new Swiper('.sFAQ__slider--js', {
 		slidesPerView: 'auto',
-		spaceBetween: 0,
+		spaceBetween: 20,
 
 		loop: true,
 		freeMode: false,
@@ -422,16 +422,15 @@ function eventHandler() {
 			type: 'bullets',
 			clickable: true,
 		},
-		breakpoints: {
-			768: {
-				slidesPerView: 2,
-			},
-			992: {
-				slidesPerView: 3,
-			}
-		}
+		// breakpoints: {
+		// 	768: {
+		// 		slidesPerView: 2,
+		// 	},
+		// 	992: {
+		// 		slidesPerView: 3,
+		// 	}
+		// }
 	});
-
 
 };
 if (document.readyState !== 'loading') {

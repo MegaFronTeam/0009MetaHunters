@@ -83,13 +83,23 @@
 		bottom: 0;
 		left: 50%;
 		transform: translateX(-50%) rotate(-5deg);
-		img {
-			max-width: rem(840);
-			@include media-breakpoint-up(lg) {
-				max-width: none;
-			}
+		// img {
+		// 	max-width: rem(840);
+		// 	@include media-breakpoint-up(lg) {
+		// 		max-width: none;
+		// 	}
+		// }
+		background-image: url('../img/@2x/sRoadMap-img-2.png');
+		background-repeat: repeat-x;
+		background-position: bottom;
+		background-size: cover;
+		width: calc(100% + 35px);
+		height: 43px;
+		@include media-breakpoint-up(lg) {
+			height: 100px;
 		}
 		&--2 {
+			background-image: url('../img/@2x/sRoadMap-img-1.png');
 			transform: translateX(-50%) rotate(5deg);
 		}
 	}
@@ -195,11 +205,12 @@
 		border-radius: 15px;
 		padding: rem(30);
 		height: auto;
+		max-width: rem(280);
 		@include media-breakpoint-up(lg) {
 			padding: rem(40);
 		}
-		@include media-breakpoint-down(md) {
-			max-width: rem(280);
+		@include media-breakpoint-up(md) {
+			max-width: rem(380);
 		}
 		.h3 {
 			margin-bottom: rem(17);

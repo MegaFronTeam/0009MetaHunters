@@ -114,8 +114,9 @@
 		}
 		p {
 			margin-bottom: 0;
-			font-size: rem(14);
+			font-size: rem(12);
 			font-weight: 700;
+			line-height: 1.43em;
 			@include media-breakpoint-up(lg) {
 				font-size: rem(16);
 			}
