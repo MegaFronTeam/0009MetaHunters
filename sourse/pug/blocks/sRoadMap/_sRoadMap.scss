@@ -150,8 +150,10 @@
 			}
 		}
 		.swiper-pagination-bullet {
-			background-color: $gray-900;
-			border: 1px solid #FFFFFF;
+			// background-color: $gray-900;
+			// border: 1px solid #FFFFFF;
+			background-color: var(--color, #{$primary});
+			border: 1px solid var(--color, #{$primary});
 			width: 10px;
 			height: 10px;
 			--w: calc(100% / 3);
@@ -173,8 +175,35 @@
 				}
 			}
 			&-active {
-				background-color: $primary;
-				border-color: $primary;
+				--color: #{$primary};
+				// & + * {
+				// 	--color: #{$gray-900};
+				// 	border-color: #fff;
+					
+				// }
+				@include media-breakpoint-up(lg)  {
+					&:nth-child(1) {
+						& ~ * {
+							--color: #{$gray-900};
+							border-color: #fff;
+							
+						}
+					}
+					&:nth-child(2) {
+						& ~ * {
+							--color: #{$gray-900};
+							border-color: #fff;
+							
+						}
+					}
+					&:nth-child(3) {
+						& ~ * {
+							--color: #{$gray-900};
+							border-color: #fff;
+							
+						}
+					}
+				}
 				@include media-breakpoint-up(lg) {
 				}
 				&:before {
@@ -241,6 +270,7 @@
 				@include media-breakpoint-down(lg) {
 					opacity: 0;
 					pointer-events: none;
+					display: none;
 				}
 			}
 		}
