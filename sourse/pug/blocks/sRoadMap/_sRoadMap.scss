@@ -92,11 +92,14 @@
 		background-image: url('../img/@2x/sRoadMap-img-2.png');
 		background-repeat: repeat-x;
 		background-position: bottom;
-		background-size: contain;
+		background-size: cover;
 		width: calc(100% + 35px);
 		height: 43px;
 		@include media-breakpoint-up(lg) {
 			height: 100px;
+		}
+		@include media-breakpoint-up(xxl) {
+			background-size: contain;
 		}
 		&--2 {
 			background-image: url('../img/@2x/sRoadMap-img-1.png');
