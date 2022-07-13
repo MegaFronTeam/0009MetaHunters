@@ -3,6 +3,10 @@
 	--sPT: #{rem(140)};
 	--sPB: #{rem(0)};
 	// --sTPB: #{rem()};
+	background-image: url('../img/fire-solid.png');
+	background-repeat: repeat-x;
+	background-position: top;
+	background-size: auto;
 	@include media-breakpoint-up(md) {
 		--sPT: #{rem(180)};
 	}

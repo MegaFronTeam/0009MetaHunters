@@ -78,6 +78,21 @@
 			}
 		}
 	}
+	&__ribbon {
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%) rotate(-5deg);
+		img {
+			max-width: rem(840);
+			@include media-breakpoint-up(lg) {
+				max-width: none;
+			}
+		}
+		&--2 {
+			transform: translateX(-50%) rotate(5deg);
+		}
+	}
 	&__slider {
 		overflow: visible;
 		top: 50%;

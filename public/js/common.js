@@ -295,6 +295,7 @@ function eventHandler() {
 	// JSCCommon.sendForm();
 	JSCCommon.heightwindow();
 	JSCCommon.makeDDGroup();
+	JSCCommon.getCurrentYear('.footer__col-text span');
 	// JSCCommon.toggleShow(".catalog-block__toggle--desctop", '.catalog-block__dropdown');
 	// JSCCommon.animateScroll();
 	
@@ -430,6 +431,7 @@ function eventHandler() {
 			}
 		}
 	});
+
 
 };
 if (document.readyState !== 'loading') {

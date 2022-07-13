@@ -2,6 +2,6 @@
 mixin mnu(menu)
 	ul.menu(itemscope itemtype="http://schema.org/SiteNavigationElement")
 		each link in menu
-			li.menu-item(itemprop="item" class=`${link.class}`): a(href= link.url itemprop="url")= link.name
+			li.menu-item(itemprop="item" class=`${link.class}`): a(href= link.url itemprop="url").toggle-menu-mobile--js= link.name
 
 //- menu

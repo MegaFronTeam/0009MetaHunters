@@ -18,14 +18,14 @@ mixin sRoadMap(data)
 									li!= item
 				.swiper-pagination
 			+btnBase
-		+e.swiper-angle--2
-			+e.slider--js.swiper
-				.swiper-wrapper
-					+e.slide.swiper-slide
-						+pic(`sRoadMap-img-2.png`)
-		+e.swiper-angle
-			+e.slider--js.swiper
-				.swiper-wrapper
-					+e.slide.swiper-slide
-						+pic(`sRoadMap-img-1.png`)
+		+e.ribbon
+			+pic(`sRoadMap-img-2.png`)
+		+e.ribbon--2
+			+pic(`sRoadMap-img-1.png`)
+		//- 	+e.slider--js.swiper
+		//- 		.swiper-wrapper
+		//- 			+e.slide.swiper-slide
+		//- 	+e.slider--js.swiper
+		//- 		.swiper-wrapper
+		//- 			+e.slide.swiper-slide
 	// end sRoadMap

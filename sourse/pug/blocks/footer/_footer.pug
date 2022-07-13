@@ -1,7 +1,7 @@
 mixin footer(data)
 	+b.FOOTER.footer
 		+e.container.container
-			+img('img/fire-solid.png').fire
+			//- +img('img/fire-solid.png').fire
 			+img('img/header-img-2.png').magican-1
 			+img('img/header-img-3.png').magican-2
 			+img('img/threeBats.png').bats-right
@@ -22,9 +22,10 @@ mixin footer(data)
 								+icon('twitter')
 		+e.row-info.row
 			+e.col-text.col-auto.order-2.order-lg-1
-				p Meta Hunters © 2022
+				p Meta Hunters © 
+					span 
 			.col-auto.order-1.order-lg-2
-				a(href="#")
+				a(href="https://t.me/arts_man")
 					+img('img/logo.png')
 			.col-auto.order-3.order-lg-3
 				p!= data.devops

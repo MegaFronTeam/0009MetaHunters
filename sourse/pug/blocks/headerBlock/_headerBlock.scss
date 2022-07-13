@@ -2,6 +2,10 @@
 .headerBlock {
 	padding-top: calc(rem(70) + rem(60));
 	padding-bottom: 0;
+	background-image: url('../img/fire.png');
+	background-repeat: repeat-x;
+	background-position: bottom;
+	background-size: auto;
 	@include media-breakpoint-up(lg) {
 		padding-top: calc(rem(130) + rem(40));
 	}
