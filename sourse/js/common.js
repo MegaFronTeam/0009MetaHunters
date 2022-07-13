@@ -374,7 +374,7 @@ function eventHandler() {
 
 	const sFAQSwiper = new Swiper('.sFAQ__slider--js', {
 		slidesPerView: 'auto',
-		spaceBetween: 20,
+		spaceBetween: 0,
 
 		loop: true,
 		freeMode: false,
@@ -422,14 +422,14 @@ function eventHandler() {
 			type: 'bullets',
 			clickable: true,
 		},
-		// breakpoints: {
-		// 	768: {
-		// 		slidesPerView: 2,
-		// 	},
-		// 	992: {
-		// 		slidesPerView: 3,
-		// 	}
-		// }
+		breakpoints: {
+			768: {
+				slidesPerView: 2,
+			},
+			992: {
+				slidesPerView: 3,
+			}
+		}
 	});
 
 };
