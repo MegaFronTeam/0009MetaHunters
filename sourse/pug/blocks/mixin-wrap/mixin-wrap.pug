@@ -31,7 +31,8 @@ mixin addblock()
 
 mixin btnBase()
 	+b.btn-base(href="https://t.me/metahunterston" target="_blank").text-center
-		+e.bg
+		+e.bg-wrap
+			+e.bg
 		//- +e.text!= lan.btn
 		if lan == ru
 			+e.text присоединиться

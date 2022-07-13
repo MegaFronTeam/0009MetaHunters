@@ -81,13 +81,24 @@
 .btn-base {
 	display: block;
 	padding: rem(17) rem(33);
-	position: relative;
-	// z-index: 2;
+	position: relative; 
 	text-decoration: none;
 	width: 100%;
 	max-width: rem(240);
 	margin-left: auto;
 	margin-right: auto;
+	
+		text-decoration: none;
+		font-size: rem(18);
+		@include media-breakpoint-up(md) {
+			font-size: rem(20);
+		}
+	&__bg-wrap{
+		position: absolute;
+		@include a-cent; 
+		transform: translateY(var(--y, 0));
+		@include mt;
+	}
 	&__bg {
 		@include mt;
 		position: absolute;
@@ -110,13 +121,13 @@
 			bottom: 6px;
 			width: calc(100% - 5px);
 			height: 100%;
-			// transform: perspective(360px) rotateX(186deg);
 			background-color: rgba($color: $primary, $alpha: .5);
+			// transform: perspective(360px) rotateX(186deg);
 			border-radius: 10px;
 		}
 	}
 	&:hover {
-		transform: translateY(3px);
+		--y: 3px;
 		.btn-base__bg {
 			box-shadow: none;
 			&:before {
@@ -125,14 +136,12 @@
 		}
 	}
 	&__text {
-		color: $gray-900;
-		text-decoration: none;
-		font-size: rem(18);
 		position: relative;
-    // z-index: 10;
-		@include media-breakpoint-up(md) {
-			font-size: rem(20);
-		}
+		transform: translateY(var(--y, 0));
+		color: $gray-900;
+		@include mt;
+		// transform: perspective(0);
+		
 	}
 }
 
