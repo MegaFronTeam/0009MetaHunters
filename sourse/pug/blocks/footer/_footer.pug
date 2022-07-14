@@ -20,12 +20,20 @@ mixin footer(data)
 							+e.link(href="https://twitter.com/metahunterston", target="_blank")
 								+polygon()
 								+icon('twitter')
-		+e.row-info.row
-			+e.col-text.col-auto.order-2.order-lg-1
-				p Meta Hunters © 
-					span 
-			.col-auto.order-1.order-lg-2
-				a(href="")
-					+img('img/logo.png')
-			+e.col-prod.col-auto.order-3.order-lg-3
-				p!= data.devops
+		+e.row-wrap
+			+e.row-info.row
+				+e.col-text.col.order-2.order-lg-1
+					p Meta Hunters © 
+						span 
+				.col-auto.order-1.order-lg-2
+					a(href="")
+						+img('img/logo.png')
+				+e.col-prod.col.order-3.order-lg-3
+					//- p!= data.devops
+					+e.row-soc.row
+						.col-auto
+							+changeLang(data)
+						+e.col-soc.col-auto
+							+soc()
+								+item-sos('twitter', 'https://twitter.com/metahunterston')
+								+item-sos('telegram', 'https://t.me/metahunterston')

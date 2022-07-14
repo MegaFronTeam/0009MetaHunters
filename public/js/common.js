@@ -401,7 +401,7 @@ function eventHandler() {
 
 	var lastId,
     topMenu = $(".menu"),
-    topMenuHeight = topMenu.outerHeight()+15,
+    topMenuHeight = topMenu.outerHeight(),
     // All list items
     menuItems = topMenu.find("a"),
     // Anchors corresponding to menu items

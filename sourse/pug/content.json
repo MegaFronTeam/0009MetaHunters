@@ -205,7 +205,7 @@
 		},
 		"footer": {
 			"title": "присоединяйтесь к нашему комьюнити",
-			"subtitle": "откройте для себя успешное финансовое будущее вместе с meta hunters",
+			"subtitle": "Откройте для себя мир Meta Hunters, мы только начинаем!",
 			"devops": "Сайт – <a href='https://t.me/arts_man' target='_blank'> artsman </a>"
 		}
 	},
@@ -253,7 +253,7 @@
 			"subtitle": "come on an adventure with us",
 			"slider": [
 				{
-					"month": "ЯНВАРЬ-МАРТ",
+					"month": "january-march",
 					"title": "Q1 2022",
 					"list": [
 						"Team building",
@@ -263,7 +263,7 @@
 					]
 				},
 				{
-					"month": "апрель-июнь",
+					"month": "april-june",
 					"title": "Q2 2022",
 					"list": [
 						"Design and launch of social networks",
@@ -273,7 +273,7 @@
 					]
 				},
 				{
-					"month": "июль-сентябрь",
+					"month": "jule-september",
 					"title": "Q3 2022",
 					"list": [
 						"AirDrop 133 NFT",
@@ -283,7 +283,7 @@
 					]
 				},
 				{
-					"month": "октябрь-декабрь",
+					"month": "october-december",
 					"title": "Q4 2022",
 					"list": [
 						"Tokenomics / creating own token",
