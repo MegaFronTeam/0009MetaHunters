@@ -33,6 +33,7 @@
 		left: 0;
 		bottom: rem(-100);
 		display: none;
+		max-width: 380px;
 		@media (min-width: 1800px) {
 			display: block;
 		}
@@ -42,6 +43,7 @@
 		right: 0;
 		bottom: rem(-100);
 		display: none;
+		max-width: 380px;
 		@media (min-width: 1800px) {
 			display: block;
 		}
@@ -224,6 +226,11 @@
 		// @include media-breakpoint-up(lg) {
 		// 	margin-left: unset;
 		// }
+	}
+	&__col-cangeLang {
+		@include media-breakpoint-down(lg) {
+			margin-bottom: rem(15);
+		}
 	}
 	.soc {
 		--bs-gutter-x: 10px;
