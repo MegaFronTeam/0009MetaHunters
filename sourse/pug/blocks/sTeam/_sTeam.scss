@@ -74,11 +74,11 @@
 	}
 	&__item{
 		text-decoration: none;
-		&:hover {
-			h5 {
-				color: $primary;
-			}
-		}
+		// &:hover {
+		// 	h5 {
+		// 		color: $primary;
+		// 	}
+		// }
 		img {
 			// border-radius: 10px;
 			// margin-bottom: rem(20);
@@ -93,6 +93,12 @@
 			color: #fff;
 			@include media-breakpoint-down(lg) {
 				font-size: rem(16);
+			}
+			a {
+				text-decoration: none;
+				&:not(:hover) {
+					color: #fff;
+				}
 			}
 			.icon {
 				vertical-align: sub;
@@ -112,6 +118,9 @@
 			font-family: 'Circe';
 			text-transform: initial;
 			font-size: rem(18);
+			max-width: 74%;
+			margin-left: auto;
+			margin-right: auto;
 			@include media-breakpoint-down(lg) {
 				font-size: rem(14);
 			}

@@ -10,13 +10,14 @@ mixin sTeam(data)
 			+e.row.row
 				each item in data.sTeamItems
 					+e.col.col-6.col-lg-4
-						+e.item(href=`${item.link}` target="_blank").text-center
+						+e.item.text-center
 							+e.img-wrap
 								.img-wrap-center
 									+img(`img/sTeam-img-${item.itemImg}.jpg`)
 							h5!= item.itemTitle
 								if item.icon
-									+icon(item.icon)
+									a(href=`${item.link}` target="_blank") 
+										+icon(item.icon)
 							p!= item.itemText
 			+btnBase()
 	// end sTeam
