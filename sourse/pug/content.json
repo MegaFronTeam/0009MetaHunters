@@ -204,6 +204,7 @@
 			"text": "Команда работает над геймплеем, системой развития навыков, репутации и&nbsp;сбора ресурсов в&nbsp;новом и&nbsp;захватывающем формате! Подробности в&nbsp;нашем комьюнити в&nbsp;Telegram и&nbsp;Twitter."
 		},
 		"footer": {
+			"lang": "ru",
 			"title": "присоединяйтесь к нашему комьюнити",
 			"subtitle": "Откройте для себя мир Meta Hunters, мы только начинаем!",
 			"devops": "Сайт – <a href='https://t.me/arts_man' target='_blank'> artsman </a>"
@@ -413,6 +414,7 @@
 			"text": "The team is&nbsp;working on&nbsp;gameplay, skill development system, reputation and resource collecting in&nbsp;a&nbsp;new and exciting format. Check out our community, Facebook and Telegram for the further information."
 		},
 		"footer": {
+			"lang": "en",
 			"title": "join our community",
 			"subtitle": "Discover a successful financial future with Meta Hunters",
 			"devops": "Development – <a href='https://t.me/arts_man' target='_blank'> artsman </a>"
